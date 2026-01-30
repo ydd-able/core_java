@@ -3,7 +3,7 @@ package homework;
 import java.util.Arrays;
 
 //题目：根据双色球摇奖规则，产生6个红球，一个蓝球；红球范围1-33，蓝球范围1-16。红球不能有重复产生。
-public class Demo2 {
+public class DoubleColorBall {
     public static void main(String[] args) {
         int[] red = new int[6];
 

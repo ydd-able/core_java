@@ -1,7 +1,7 @@
 package homework;
 
 //打印杨辉三角形。
-public class Demo5 {
+public class YangHuiTriangle {
     public static void main(String[] args) {
         int[][] y = new int[10][];
         for (int i = 0; i < y.length; i++) {
