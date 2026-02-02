@@ -5,10 +5,11 @@ public class AbsoluteValue {
         System.out.println(abs(-3));
     }
     public static int abs(int x){
+        long temp = x;
         if(x>0){
             return x;
         }else {
-            return -x;
+            return (int)temp;
         }
     }
 }
