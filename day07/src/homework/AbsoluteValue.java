@@ -2,14 +2,13 @@ package homework;
 
 public class AbsoluteValue {
     public static void main(String[] args) {
-        System.out.println(abs(-3));
+        System.out.println(abs(Integer.MIN_VALUE));
     }
-    public static int abs(int x){
+    public static long abs(int x){
         long temp = x;
-        if(x>0){
-            return x;
-        }else {
-            return (int)temp;
+        if(temp<0){
+            temp = -temp;
         }
+        return temp;
     }
 }
