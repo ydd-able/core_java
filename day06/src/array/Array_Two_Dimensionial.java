@@ -3,7 +3,7 @@ package array;
 import java.sql.SQLOutput;
 import java.util.Arrays;
 
-public class Array_Two_Dimensionial {
+public class  Array_Two_Dimensionial {
     public static void main(String[] args) {
        /* int[][] a;//声明。
         int b[][];//声明。
