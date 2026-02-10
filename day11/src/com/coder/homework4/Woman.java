@@ -1,6 +1,6 @@
 package com.coder.homework4;
 
-public class woman extends Person{
+public class Woman extends Person{
     @Override
     public void speak() {
         System.out.println("女人说话");
