@@ -3,7 +3,7 @@ package com.coder.array;
 import javax.swing.event.CellEditorListener;
 import java.util.Arrays;
 
-public class MyArray {
+public class MyArray<E> {
     private Object[] elementData;//用来存储数据的数组
     private int size;//数组的实际长度。
     private static final int DEFAULT_CAPACITY = 10;
@@ -29,7 +29,7 @@ public class MyArray {
         return size;
     }
 
-    public boolean add(Object obj) {
+    public boolean add(E obj) {
         add(obj, elementData, size);
         return true;
     }
@@ -60,9 +60,9 @@ public class MyArray {
     }
 
     //获取对应索引的元素值。
-    public Object get(int index) {
+    public E get(int index) {
         if (index < elementData.length) {
-            return elementData[index];
+            return (E) elementData[index];
         } else {
             throw new IllegalArgumentException("索引长度异常");
         }
