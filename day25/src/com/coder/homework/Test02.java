@@ -1,7 +1,6 @@
 package com.coder.homework;
 
 import java.util.Random;
-import java.util.concurrent.TimeUnit;
 
 /**
  * @author N1357

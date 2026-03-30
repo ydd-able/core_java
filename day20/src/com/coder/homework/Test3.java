@@ -1,10 +1,8 @@
 package com.coder.homework;
 
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.List;
 import java.util.function.BiFunction;
-import java.util.function.BinaryOperator;
 
 /**
  * @author N1357

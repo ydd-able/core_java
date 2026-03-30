@@ -1,7 +1,5 @@
 package com.coder.enumtest;
 
-import java.util.Random;
-
 /**
  * @author N1357
  * @date 2026/3/10
