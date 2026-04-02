@@ -24,7 +24,7 @@ class PassCave {
     public synchronized void pass() {//加锁，一个一个过
         System.out.println(Thread.currentThread().getName() + "进入山洞");
         try {
-            TimeUnit.SECONDS.sleep(2);
+            TimeUnit.SECONDS.sleep(5);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
