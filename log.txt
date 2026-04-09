@@ -1,0 +1,4 @@
+日志用户：ydd,时间:2026-04-09 18:51:03,类名：com.coder.homework2.FinanceServiceImpl,方法：addMoney
+日志用户：ydd,时间:2026-04-09 18:51:16,类名：com.coder.homework2.FinanceServiceImpl,方法：substractMoney
+日志用户：ydd,时间:2026-04-09 18:54:11,类名：com.coder.homework2.FinanceServiceImpl,方法：addMoney
+日志用户：ydd,时间:2026-04-09 18:54:17,类名：com.coder.homework2.FinanceServiceImpl,方法：substractMoney
